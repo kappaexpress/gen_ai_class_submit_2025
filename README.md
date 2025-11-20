@@ -50,7 +50,7 @@ source ~/.bashrc
 
 Gemini APIキーは [Google AI Studio](https://aistudio.google.com/app/api-keys) から取得できます。
 
-#### 新しいライブラリを追加する場合
+## 新しいライブラリを追加する場合
 
 1. `requirements.txt` に追加するライブラリ名を記述
    ```bash
