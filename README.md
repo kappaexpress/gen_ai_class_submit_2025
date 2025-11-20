@@ -49,11 +49,7 @@ Gemini APIキーは [Google AI Studio](https://aistudio.google.com/app/api-keys)
 
 ## 新しいライブラリを追加する場合
 
-1. `requirements.txt` に追加するライブラリ名を記述
-   ```bash
-   echo "ライブラリ名" >> requirements.txt
-   ```
-
+1. `requirements.txt` に追加するライブラリ名を追記
 2. requirements.txtからインストール
    ```bash
    pip install -r requirements.txt
