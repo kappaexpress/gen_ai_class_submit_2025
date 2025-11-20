@@ -23,4 +23,4 @@ source ~/.bashrc
 
 ## APIキーの取得方法
 
-Gemini APIキーは [Google AI Studio](https://aistudio.google.com/app/apikey) から取得できます。
+Gemini APIキーは [Google AI Studio](https://aistudio.google.com/app/api-keys) から取得できます。
