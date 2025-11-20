@@ -12,11 +12,19 @@
    - **Description**: リポジトリの説明（任意）
    - **Public** を選択
 5. 「Create repository」ボタンをクリック
-6. 作成されたリポジトリをローカルにクローン：
-   ```bash
-   git clone https://github.com/あなたのユーザー名/リポジトリ名.git
-   cd リポジトリ名
-   ```
+
+## 開発環境の準備
+
+### GitHub Codespacesで開発する場合
+
+ブラウザ上で完結する開発環境です。ローカルに何もインストールする必要がありません。
+
+1. 作成したリポジトリのGitHubページを開く
+2. 「Code」ボタン（緑色）をクリック
+3. 「Codespaces」タブを選択
+4. 「Create codespace on main」をクリック
+5. ブラウザ上でVS Codeが起動し、開発を開始できます
+
 
 ## セットアップ
 
