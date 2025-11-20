@@ -24,3 +24,19 @@ source ~/.bashrc
 ## APIキーの取得方法
 
 Gemini APIキーは [Google AI Studio](https://aistudio.google.com/app/api-keys) から取得できます。
+
+#### 新しいライブラリを追加する場合
+
+1. `requirements.txt` に追加するライブラリ名を記述
+   ```bash
+   echo "ライブラリ名" >> requirements.txt
+   ```
+
+2. requirements.txtからインストール
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## 参考リンク
+
+- [Gemini API ドキュメント](https://ai.google.dev/gemini-api/docs) - Gemini APIの公式ドキュメント
