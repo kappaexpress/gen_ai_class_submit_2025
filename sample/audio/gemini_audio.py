@@ -28,13 +28,13 @@ contents = [
     types.Content(
         role="user",  # メッセージの送信者（ユーザー）を指定
         parts=[
-            # Part.from_text()でテキスト形式のメッセージを作成
-            types.Part.from_text(text="この音声について説明してください。"),
             # Part.from_bytes()で音声データを含める
             types.Part.from_bytes(
                 data=audio_bytes,
                 mime_type="audio/mp3",
             ),
+            # Part.from_text()でテキスト形式のメッセージを作成
+            types.Part.from_text(text="この音声について説明してください。"),
         ],
     ),
 ]
