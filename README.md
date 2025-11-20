@@ -1,5 +1,23 @@
 # Gen AI Class Submit 2025
 
+## リポジトリの作成
+
+このテンプレートリポジトリから自分のアカウントにリポジトリを作成します。
+
+1. このリポジトリのGitHubページを開く
+2. 右上の「Use this template」ボタンをクリック
+3. 「Create a new repository」を選択
+4. リポジトリの設定を入力：
+   - **Repository name**: 任意の名前（例: `gen_ai_class_submit_2025`）
+   - **Description**: リポジトリの説明（任意）
+   - **Public** を選択
+5. 「Create repository」ボタンをクリック
+6. 作成されたリポジトリをローカルにクローン：
+   ```bash
+   git clone https://github.com/あなたのユーザー名/リポジトリ名.git
+   cd リポジトリ名
+   ```
+
 ## セットアップ
 
 ### 環境変数の設定
