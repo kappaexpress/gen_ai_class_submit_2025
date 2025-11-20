@@ -23,7 +23,7 @@ uploaded_file = st.file_uploader("画像を選択してください", type=["png
 
 if uploaded_file is not None:
     # アップロードされた画像を表示
-    st.image(uploaded_file, caption="アップロードされた画像", use_container_width=True)
+    st.image(uploaded_file, caption="アップロードされた画像", width="stretch")
 
     # 説明ボタン
     if st.button("画像を説明"):
