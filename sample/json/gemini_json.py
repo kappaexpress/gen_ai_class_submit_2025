@@ -29,7 +29,7 @@ contents = [
         parts=[
             # Part.from_text()でテキスト形式のメッセージを作成
             types.Part.from_text(
-                text=f"次のテキストについて俳句を作成してください:\n{sample_text}\n出力はJSON形式{{'haiku': 'ここに俳句'}}です。他の情報は含めないでください。"
+                text=f"次のテキストについて俳句を作成してください:\n{sample_text}\n出力はJSON形式{{'haiku': 'ここに俳句','kigo': '春or夏or秋or冬or不明'}}です。他の情報は含めないでください。"
             ),
         ],
     ),
@@ -74,10 +74,11 @@ try:
     # JSONとしてパース
     haiku_data = json.loads(response_text)
 
-    # 俳句を取り出して表示
-    if "haiku" in haiku_data:
+    # 俳句と季語の表示
+    if "haiku" in haiku_data and "kigo" in haiku_data:
         print("--- パース成功 ---")
         print(f"俳句: {haiku_data['haiku']}")
+        print(f"季語: {haiku_data['kigo']}")
         print("------\n")
     else:
         print("--- エラー: 'haiku'キーが見つかりません ---")
